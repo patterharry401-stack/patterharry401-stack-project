@@ -1,0 +1,6 @@
+1) Wifite2      - WiFi Attack Module
+2) NetHunter    - Kali Linux Environment
+3) Zphisher     - Social Engineering Core
+4) Maskphish    - Link Camouflage System
+5) IP Scanner   - Network Intelligence
+6) Integrated via Harry-Max Master Key
