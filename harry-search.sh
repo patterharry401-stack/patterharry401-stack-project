@@ -11,10 +11,10 @@ if [[ $target == *"@"* ]]; then
     holehe $target | grep "\[+\]"
 else
     echo "Searching Username: $target..."
-    # Sherlock folder ထဲကို အရင်ဝင်မယ်
-    cd ~/patterharry401-stack-project/sherlock
-    # Module အနေနဲ့ လှမ်းခေါ်တဲ့ ပုံစံအမှန် ( -m ) ကို သုံးမယ်
-    python3 -m sherlock $target --timeout 1 --print-found
+    # Sherlock ရဲ့ folder အဆင့်ဆင့်ထဲကို အတိအကျ ဝင်မယ်
+    cd ~/patterharry401-stack-project/sherlock/sherlock_project
+    # ဖိုင်ကို တိုက်ရိုက်မောင်းပြီး လိုအပ်တဲ့ Library တွေကို PYTHONPATH နဲ့ ချိတ်ပေးမယ်
+    PYTHONPATH=.. python3 sherlock.py $target --timeout 1 --print-found
 fi
 
 echo "------------------------------"
