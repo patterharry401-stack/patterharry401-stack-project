@@ -1,12 +1,2 @@
-==========================================
-    HARRY-MAX: SECURITY AUDIT REPORT
-==========================================
-[!] Vulnerability Check:
-    - 4 Websites using Weak Passwords (Master Key can open)
-    - 2 APks found with "Malicious Logic" signatures.
-    - 3 Recovery Links are exposed.
-
-[*] Recommendations:
-    - Use the Master Key to secure the 4 weak websites.
-    - Sand-box the suspicious APKs before installing.
-==========================================
+SECURITY AUDIT: VULNERABILITIES DETECTED
+Admin Access can be gained for 4 sites.
