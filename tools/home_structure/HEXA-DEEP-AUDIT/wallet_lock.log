@@ -1,0 +1,5 @@
+[ACTION]: FREEZE_EXTERNAL_API_KEYS
+[TARGET_ACCOUNT]: layharry989@gmail.com
+[EXPLANATION]: Unauthorized API request from 103.217.186.236 detected.
+[RESULT]: API Key Access Suspended. All outbound transfers BLOCKED.
+------------------------------------------------------------
