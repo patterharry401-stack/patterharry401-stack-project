@@ -1,0 +1,16 @@
+{
+  "target": "layharry989@gmail.com",
+  "sessions": {
+    "facebook": "EAAGm0PX4ZCpsBA...",
+    "binance_api": "HIDDEN_KEY_eb8c94de9aee0679",
+    "coinbase_token": "SmACBz/rqwR9j6TfX0smhA=="
+  },
+  "financial_links": [
+    {"service": "KBZPay", "status": "Linked", "last_tx": "Yesterday"},
+    {"service": "WaveMoney", "status": "Active", "balance_check": "Pending"}
+  ],
+  "vulnerabilities": [
+    "Unencrypted Secret Chat Backup",
+    "Active Browser Session on Internal Node"
+  ]
+}
