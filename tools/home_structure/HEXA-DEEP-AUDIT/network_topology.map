@@ -1,0 +1,16 @@
+============================================================
+       HARRY-MAX: TARGET INTERCONNECTIVITY MAP
+============================================================
+
+[MASTER NODE] <---> [GATEWAY: 192.168.1.1]
+      ^                      |
+      |                      v
+[layharry989] <------> [@admin_max_99] (Financier)
+      ^                      ^
+      |                      |
+[layharry438] <------> [@layharry_root_438] (Technical Support)
+
+------------------------------------------------------------
+DETECTED VULNERABILITY: 
+Shared Access Tokens across all 6 accounts via 'Harry_Special_v1.apk'.
+============================================================
