@@ -1,0 +1,24 @@
+stages:
+  - intelligence_gathering
+  - security_shield
+
+# အဆင့် ၁ - အချက်အလက် စုဆောင်းခြင်း
+gather_intel:
+  stage: intelligence_gathering
+  script:
+    - echo "HADU-IQ System Starting..."
+    - echo "Using Token: ${HADU_TOKEN:0:10}******"
+    - mkdir -p intel_reports
+    - echo "Target System Analysis in progress..." > intel_reports/status.txt
+  artifacts:
+    paths:
+      - intel_reports/
+
+# အဆင့် ၂ - လုံခြုံရေး ခံတပ် တည်ဆောက်ခြင်း
+activate_shield:
+  stage: security_shield
+  script:
+    - echo "Activating Hacker-Defense Shield..."
+    - echo "Checking System Vulnerabilities..."
+    - sleep 5
+    - echo "HADU-IQ Shield is now ACTIVE."
